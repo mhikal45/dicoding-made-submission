@@ -1,0 +1,19 @@
+dependencies {
+    implementation "androidx.core:core-ktx:$coreVersion"
+    //ui
+    implementation "androidx.appcompat:appcompat:$compatVersion"
+    implementation "com.google.android.material:material:$materialVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$livedataVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$viewmodelVersion"
+    implementation "androidx.navigation:navigation-fragment-ktx:$navfragVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navuiVersion"
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    //koin
+    implementation "io.insert-koin:koin-core:$koinVersion"
+    implementation "io.insert-koin:koin-android:$koinVersion"
+    //testing
+    testImplementation "junit:junit:$junitVersion"
+    androidTestImplementation "androidx.test.ext:$junittestVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoCoreVersion"
+}

@@ -1,0 +1,4 @@
+rootProject.name = "Winter Anime List 2021"
+include ':app'
+include ':core'
+include ':favorite'
