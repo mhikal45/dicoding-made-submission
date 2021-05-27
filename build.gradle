@@ -25,6 +25,8 @@ ext {
     kotlinCoroutineCoreVersion = '1.3.9'
     kotlinCoroutineVersion = '1.4.3'
     koinVersion = '3.0.2'
+    sqlCipherVersion = '4.4.0'
+    sqlKtxVersion = '2.1.0'
     //ui
     compatVersion = '1.3.0'
     materialVersion = '1.3.0'
