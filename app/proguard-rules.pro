@@ -29,7 +29,7 @@
 -keepattributes Signature
 
 # For using GSON @Expose annotation
--keepattributes *Annotation*
+-keepattributes SerializeName
 
 # Gson specific classes
 -dontwarn sun.misc.**
