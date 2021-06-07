@@ -10,7 +10,7 @@ data class Anime(
     var title : String,
     var source : String,
     var score : Double,
-    var startAiring : String,
+    var startAiring : String?,
     var episode : Int,
     var poster : String,
     var genres : String,

@@ -29,7 +29,7 @@ data class AnimeEntity(
     var score : Double,
 
     @ColumnInfo(name = "startAiring")
-    var startAiring : String,
+    var startAiring : String?,
 
     @ColumnInfo(name = "episode")
     var episode : Int,
